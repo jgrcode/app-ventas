@@ -1,0 +1,62 @@
+html {
+    min-height: 100%;
+    position: relative;
+  }
+ 
+body{
+    background-color: #DAFEFF;
+}
+.logo img{
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.btn-agregar{
+    border: none;
+    background: none;
+    color: #FE5323;
+    text-transform: uppercase;
+}
+.btn-agregar span{
+    font-size: 30px;
+}
+.caja-buscar{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: flex-end;
+}
+.btn-buscar{
+    margin-top: 15px;
+    border: none;
+    background: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #FE5323;
+    color: #fff;
+    text-transform: uppercase;
+    width: 120px;
+}
+
+.table{
+    margin-top: 20px;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+
+.table a{
+    color: #000;
+    font-size: 1.3em;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+  
+}
+footer p a{
+    color: #FE5323;
+    font-weight: bold;
+}
