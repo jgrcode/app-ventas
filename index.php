@@ -78,7 +78,7 @@
                         </div>
                         <div class="modal-body">
                             <form id="formDatosA">
-                                <input type="number" id="inputIdVenta" name="inputIdVenta">
+                                <input type="hidden" id="inputIdVenta" name="inputIdVenta">
                                 <input type="text" class="form-control" name="inputNombreU" id="inputNombreU"
                                        placeholder="NOMBRE DEL CLIENTE">
                                 <input type="text" class="form-control" name="inputProductoU" id="inputProductoU"
